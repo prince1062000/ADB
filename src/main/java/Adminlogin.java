@@ -12,7 +12,6 @@ String qry;
     public Adminlogin() {
         initComponents();
    
-    
     }
 
    

@@ -17,7 +17,7 @@ Statement st;
 ResultSet rs;
 String qry;
     /**
-     * Creates new form Editprofile
+     * Creates new form Edit profile
      */
     public Editprofile() {
            initComponents();
