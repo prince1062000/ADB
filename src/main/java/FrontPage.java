@@ -30,6 +30,7 @@ public class FrontPage extends javax.swing.JFrame implements Runnable{
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jProgressBar1 = new javax.swing.JProgressBar();
+        jLabel6 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -63,7 +64,10 @@ public class FrontPage extends javax.swing.JFrame implements Runnable{
         jProgressBar1.setMaximum(50);
         getContentPane().add(jProgressBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 502, 730, 10));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Sony\\Downloads\\new namaste.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon("D:\\NetBeansProjects\\ADB\\src\\Images\\Bg images\\Namaste.png")); // NOI18N
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 0, -1, 100));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon("D:\\NetBeansProjects\\ADB\\src\\Images\\Bg images\\Fromt page background.png")); // NOI18N
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 730, 510));
 
         pack();
@@ -116,6 +120,7 @@ public class FrontPage extends javax.swing.JFrame implements Runnable{
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JProgressBar jProgressBar1;
     // End of variables declaration//GEN-END:variables
 
